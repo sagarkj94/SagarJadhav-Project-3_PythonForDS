@@ -1,13 +1,29 @@
 
+@font-face {
+  font-family: Raleway-Black;
+  src: url('../fonts/raleway/Raleway-Black.ttf');
+}
+
+@font-face {
+  font-family: Raleway-SemiBold;
+  src: url('../fonts/raleway/Raleway-SemiBold.ttf');
+}
+
+@font-face {
+  font-family: Raleway-Bold;
+  src: url('../fonts/raleway/Raleway-Bold.ttf');
+}
+
+
 p{
   color: black !important;
-  font-family: sans-serif !important;
+  font-family: Raleway-SemiBold, sans-serif !important;
 
 }
 
 body, html {
 	height: 100%;
-	font-family: sans-serif;
+	font-family: Raleway-SemiBold, sans-serif;
 }
 
 body{
@@ -21,7 +37,7 @@ body{
 
 
 a {
-	font-family: sans-serif;
+	font-family: Raleway-SemiBold;
 	font-size: 14px;
 	line-height: 1.7;
 	color: #666666;
@@ -53,7 +69,7 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 p,.control-label {
-	font-family: sans-serif;
+	font-family: Raleway-SemiBold;
 	font-size: 18px !important;
 	color: #666666;
 	margin: 0px;
